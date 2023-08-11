@@ -58,6 +58,7 @@ export const housesData = [
   {
     id: 1,
     type: 'House',
+    listingDate: '2023-08-01',
     name: 'House 1',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -79,6 +80,7 @@ export const housesData = [
   {
     id: 2,
     type: 'House',
+    listingDate: '2023-08-05',
     name: 'House 2',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -100,6 +102,7 @@ export const housesData = [
   {
     id: 3,
     type: 'House',
+    listingDate: '2023-08-10' ,
     name: 'House 3',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -121,6 +124,7 @@ export const housesData = [
   {
     id: 4,
     type: 'House',
+    listingDate: '2023-08-01',
     name: 'House 4',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -142,6 +146,7 @@ export const housesData = [
   {
     id: 5,
     type: 'House',
+    listingDate: '2023-08-05',
     name: 'House 5',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -163,6 +168,7 @@ export const housesData = [
   {
     id: 6,
     type: 'House',
+    listingDate: '2023-08-10' ,
     name: 'House 6',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -184,6 +190,7 @@ export const housesData = [
   {
     id: 7,
     type: 'Apartament',
+    listingDate: '2023-08-01',
     name: 'Apartament 1',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -205,6 +212,7 @@ export const housesData = [
   {
     id: 8,
     type: 'Apartament',
+    listingDate: '2023-08-05',
     name: 'Apartament 2',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -226,6 +234,7 @@ export const housesData = [
   {
     id: 9,
     type: 'Apartament',
+    listingDate: '2023-08-10' ,
     name: 'Apartament 3',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -247,6 +256,7 @@ export const housesData = [
   {
     id: 10,
     type: 'House',
+    listingDate: '2023-08-01',
     name: 'House 7',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -268,6 +278,7 @@ export const housesData = [
   {
     id: 11,
     type: 'House',
+    listingDate: '2023-08-05',
     name: 'House 8',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -289,6 +300,7 @@ export const housesData = [
   {
     id: 12,
     type: 'House',
+    listingDate: '2023-08-01' ,
     name: 'House 9',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -310,6 +322,7 @@ export const housesData = [
   {
     id: 13,
     type: 'House',
+    listingDate: '2023-08-01',
     name: 'House 10',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -331,6 +344,7 @@ export const housesData = [
   {
     id: 14,
     type: 'House',
+    listingDate: '2023-08-05',
     name: 'House 11',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -352,6 +366,7 @@ export const housesData = [
   {
     id: 15,
     type: 'House',
+    listingDate: '2023-08-01' ,
     name: 'House 12',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -363,7 +378,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '5200 sq ft',
     year: '2013',
-    price: '221000',
+    price: '181000',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -373,6 +388,7 @@ export const housesData = [
   {
     id: 16,
     type: 'Apartament',
+    listingDate: '2023-08-01',
     name: 'Apartament 16',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -393,7 +409,8 @@ export const housesData = [
   },
   {
     id: 17,
-    type: 'Apartament',
+    type: 'House',
+    listingDate: '2023-08-01',
     name: 'Apartament 17',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -405,7 +422,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2012',
-    price: '32000',
+    price: '160000',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
@@ -414,19 +431,20 @@ export const housesData = [
   },
   {
     id: 18,
-    type: 'Apartament',
+    type: 'House',
+    listingDate: '2023-08-01' ,
     name: 'Apartament 18',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment6,
     imageLg: Apartment6Lg,
-    country: 'Canada',
+    country: 'United States',
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '3',
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2010',
-    price: '38000',
+    price: '170000',
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',
