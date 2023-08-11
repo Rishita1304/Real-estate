@@ -133,9 +133,8 @@ const handleClick = () => {
   });
 
   setTimeout(() => {
-    return newHouses.length < 1 ? setHouses([]) : setHouses(newHouses)
+    return newHouses.length < 1 ? setHouses([]) : setHouses(newHouses), setLoading(false)
   }, 1000);
-  setLoading(false)
 }
 
   return <HouseContext.Provider value={{houses,country,setCountry,countries,property,setProperty,properties,price,setPrice,startDate,setStartDate,startDates,loading, handleClick}}>{children}</HouseContext.Provider>
