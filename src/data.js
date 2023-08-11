@@ -202,7 +202,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2012',
-    price: '20000',
+    price: '200000',
     agent: {
       image: Agent7,
       name: 'Jawhar Shamil Naser',
@@ -224,7 +224,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2011',
-    price: '30000',
+    price: '130000',
     agent: {
       image: Agent8,
       name: 'Juana Douglass',
@@ -246,7 +246,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1100 sq ft',
     year: '2011',
-    price: '40000',
+    price: '205000',
     agent: {
       image: Agent9,
       name: 'Jerry Schenck',
