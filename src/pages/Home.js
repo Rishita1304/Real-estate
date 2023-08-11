@@ -14,16 +14,16 @@ const Home = () => {
   return (
     <div className="min-h-[1800px] mx-6">
       <div className="mb-10">
-        <div className="mx-6 flex lg:flex-row justify-between items-center flex-col">
+        <div className="mx-6 flex flex-col justify-between items-center md:flex-row">
       <h1 className="font-semibold text-2xl lg:text-3xl py-4 my-4 flex justify-between">Search Properties to rent</h1>
-      <div>
+      <div className="lg:w-[230px] w-[310px]">
         <input className=" border rounded-lg p-4 w-full"
         type="text"
         placeholder="Search by property Title"
         value={searchTerm}
         onChange={e => setSearchTerm(e.target.value)}
         />
-        <div className=" px-6 text-[15px] cursor-pointer space-y-6 after:hidden shadow-md bg-white absolute lg:w-[230px] w-full z-10 list-none rounded-b-lg">
+        <div className=" px-6 text-[15px] cursor-pointer space-y-6 after:hidden shadow-md bg-white absolute lg:w-[230px] w-[310px] z-10 list-none rounded-b-lg">
 
       {searchTerm?
 (      <ul>
