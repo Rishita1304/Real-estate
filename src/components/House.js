@@ -11,14 +11,16 @@ const House = ({house}) => {
       <div className='bg-green-500 py-1 rounded-full px-3 text-white'>{type}</div>
       <div className='bg-purple-500 py-1 rounded-full px-3 text-white'>{country}</div>
     </div>
-      <div className='text-gray-600 mb-2 font-medium flex gap-x-2 items-center'><SlCalender/>{listingDate}</div>
-      <div className='text-gray-900 mb-2 font-medium flex gap-x-2 items-center'>{address}</div>
-      <div className='flex justify-between mr-2 mb-2'>
+      <div className='text-gray-900 py-2 font-medium flex gap-x-2 items-center'>{address}</div>
+      <div className='flex justify-between py-3 my-2 border-y mx-1'>
         <div className='text-gray-400 flex gap-x-0.5 items-center'><BiBed/>{bedrooms}</div>
         <div className='text-gray-400 flex gap-x-0.5 items-center'><BiBath/>{bathrooms}</div>
         <div className='text-gray-400 flex gap-x-0.5 items-center'><BiArea/>{surface}</div>
       </div>
+      <div className='flex justify-between items-center pt-2 mx-1'>
+      <div className='text-gray-600 font-medium flex gap-x-2 items-center'><SlCalender/>{listingDate}</div>
       <div className='text-purple-700 font-medium flex gap-x-0.25 items-center'><BsCurrencyRupee/>{price}</div>
+      </div>
   </div>;
 };
 
