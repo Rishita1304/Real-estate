@@ -5,6 +5,7 @@ export const HouseContext = createContext();
 
 const HouseContextProvider = ({children}) => {
   const [houses, setHouses] = useState(housesData)
+  const [name, setName] = useState('')
   const [country, setCountry] = useState('Location (any)')
   const [countries, setCountries] = useState([])
   const [property, setProperty] = useState('Property (any)')
@@ -39,6 +40,20 @@ const HouseContextProvider = ({children}) => {
     const uniqueDate = ['Date (any)',...new Set(allDates)]
     setStartDates(uniqueDate);
   },[]);
+
+const onHandleClick = (name) => {
+  setLoading(true);
+
+  const newHouses = housesData.filter((house)=>{
+    if(house.name === name){
+      return house;
+    }
+  })
+
+  setTimeout(() => {
+    return (newHouses.length < 1 ? setHouses([]) : setHouses(newHouses), setLoading(false));
+  }, 1000);
+}  
 
 const handleClick = () => {
   setLoading(true);
@@ -137,7 +152,7 @@ const handleClick = () => {
   }, 1000);
 }
 
-  return <HouseContext.Provider value={{houses,country,setCountry,countries,property,setProperty,properties,price,setPrice,startDate,setStartDate,startDates,loading, handleClick}}>{children}</HouseContext.Provider>
+  return <HouseContext.Provider value={{houses,onHandleClick,country,setCountry,countries,property,setProperty,properties,price,setPrice,startDate,setStartDate,startDates,loading, handleClick}}>{children}</HouseContext.Provider>
 }
 
 export default HouseContextProvider;
