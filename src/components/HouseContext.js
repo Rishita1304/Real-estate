@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { createContext, useEffect, useState } from 'react';
+import {houseData} from '../data'
 
-const HouseContext = () => {
-  return <div>HouseContext</div>;
-};
+export const HouseContext = createContext();
 
-export default HouseContext;
+const HouseContextProvider = ({children}) => {
+  return <HouseContext.Provider value={console.log('hiiiii')}></HouseContext.Provider>
+}
+
+export default HouseContextProvider;

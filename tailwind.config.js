@@ -1,3 +1,5 @@
+///** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -20,6 +22,7 @@ module.exports = {
       colors: {
         primary: '#101828',
         secondary: '#7F56D9',
+        real: '#94a3b8',
       },
       boxShadow: {
         1: '0px 4px 30px rgba(0, 0, 0, 0.08)',
@@ -28,3 +31,4 @@ module.exports = {
   },
   plugins: [],
 };
+
