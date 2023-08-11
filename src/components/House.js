@@ -5,8 +5,8 @@ import {BsCurrencyRupee} from 'react-icons/bs'
 
 const House = ({house}) => {
   const {image, type,country, address, bedrooms, bathrooms, surface, listingDate,price,} = house;
-  return <div className='bg-white shadow-1 p-5 rounded-lg rounded-tl-[90px] mx-auto cursor-pointer w-full max-w-[352px] hover:shadow-2xl transition'>
-    <img className='mb-6' src={image} alt=""/>
+  return <div className='bg-white shadow-1 p-5 rounded-lg mx-auto cursor-pointer w-full max-w-[352px] hover:shadow-2xl transition'>
+    <img className='mb-6 rounded-lg' src={image} alt=""/>
     <div className='mb-3 flex gap-x-4 text-sm'>
       <div className='bg-green-500 py-1 rounded-full px-3 text-white'>{type}</div>
       <div className='bg-purple-500 py-1 rounded-full px-3 text-white'>{country}</div>
