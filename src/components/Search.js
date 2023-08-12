@@ -7,7 +7,7 @@ import DateDropdown from './DateDropdown';
 
 const Search = () => {
   const {handleClick} = useContext(HouseContext)
-  return <div className=' px-2 lg:px-[30px] py-4 max-w-[1200px] flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:top-2 lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg'>
+  return <div className=' px-2 lg:px-[30px] py-4 flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:top-2 lg:shadow-1 bg-white lg:bg-transparent lg:backdrop-blur rounded-lg'>
     <CountryDropdown/>
     <PropertyDropdown/>
     <DateDropdown/>
