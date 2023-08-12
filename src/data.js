@@ -312,11 +312,11 @@ export const housesData = [
     bathrooms: '1',
     surface: '1300 sq ft',
     year: '2011',
-    price: '21000',
+    price: '210000',
   },
   {
     id: 17,
-    type: 'House',
+    type: 'Apartament',
     listingDate: '2023-08-01',
     name: 'Apartament 17',
     description:
@@ -333,7 +333,7 @@ export const housesData = [
   },
   {
     id: 18,
-    type: 'House',
+    type: 'Apartament',
     listingDate: '2023-08-01' ,
     name: 'Apartament 18',
     description:

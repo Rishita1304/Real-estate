@@ -3,6 +3,7 @@ import Search from "../components/Search";
 import HouseList from "../components/HouseList";
 import Input from '../components/Input'
 import { HouseContext } from "../components/HouseContext";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const {houses,onHandleClick} = useContext(HouseContext)
