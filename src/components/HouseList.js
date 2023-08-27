@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { HouseContext } from './HouseContext';
 import House from '../components/House';
 import {ImSpinner2} from 'react-icons/im'
+import { Link } from 'react-router-dom';
 
 const HouseList = () => {
   const {houses, loading} = useContext(HouseContext);
@@ -18,7 +19,9 @@ const HouseList = () => {
       <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 lg:gap-14'>
         {houses.map((house, index)=>{
           return (
+            <Link to={`/property/${house.id}`}>
             <House house={house} key={index}/>
+            </Link>
           )
         })}
       </div>
