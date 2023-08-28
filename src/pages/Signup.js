@@ -1,6 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Signup = () => {
+    const navigate = useNavigate();
+    const handleSignClick= ()=>{
+        alert("User Registered!!")
+        navigate('/login')
+    }
   return (
     <div className="min-h-[600px] mx-6">
         <div className='mx-auto my-4 w-full pt-8 lg:w-1/3 justify-center items-center'>
@@ -26,7 +34,7 @@ const Signup = () => {
                 placeholder="Password"
                 type="password"
               />
-                <button className="bg-purple-700 hover:bg-purple-800 text-white rounded p-4 text-sm w-full transition">
+                <button className="bg-purple-700 hover:bg-purple-800 text-white rounded p-4 text-sm w-full transition" onClick={handleSignClick}>
                   Submit
                 </button>
             </form>
