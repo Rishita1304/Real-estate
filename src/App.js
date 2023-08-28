@@ -7,6 +7,7 @@ import PropertyDetails from "./pages/PropertyDetails";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import { gapi } from "gapi-script";
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
+      <Toaster/>
       <Footer />
     </div>
   );

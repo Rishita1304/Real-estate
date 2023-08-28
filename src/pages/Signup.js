@@ -1,12 +1,11 @@
 import React from 'react'
+import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 const Signup = () => {
     const navigate = useNavigate();
     const handleSignClick= ()=>{
-        alert("User Registered!!")
+        toast.success("User Registered!!")
         navigate('/login')
     }
   return (
