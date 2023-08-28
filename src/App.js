@@ -10,6 +10,8 @@ import { gapi } from "gapi-script";
 
 const App = () => {
 
+  const user = localStorage.getItem("user");
+
   useEffect(()=>{
     function start(){
       gapi.client.init({
@@ -21,7 +23,7 @@ const App = () => {
   })
   return (
     <div className="max-w-[1440px] mx-auto bg-white">
-      <Header />
+      <Header user={user}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/property/:id" element={<PropertyDetails />} />

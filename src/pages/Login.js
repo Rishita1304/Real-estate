@@ -1,17 +1,16 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
-import {FcGoogle} from 'react-icons/fc'
 import GoogleLogin from 'react-google-login';
 
 const Login = () => {
-    const navigate = useNavigate();
     const handleLogClick= ()=>{
+      window.location.assign('/')
+      localStorage.setItem("user", "newuser")
         alert("User Logged In!!")
-        navigate('/')
       }
-      const onSuccess = (res) => {
-        console.log("LogIn Success", res.profileObj);
-        navigate('/')
+      const onSuccess = () => {
+        window.location.assign('/')
+        localStorage.setItem("user", "newuser")
+        alert("User Logged In!!")
     }
     const onFailure = (res) => {
         console.log("LogIn Fuilure", res);
@@ -36,10 +35,7 @@ const Login = () => {
                 </button>
                 <hr/>
                 <div className='mt-[-35px] w-1/6 mx-auto bg-white text-gray-400 flex justify-center'>OR</div>
-                {/* <button className="flex items-center justify-center gap-7 p-3 border border-gray-300 rounded-lg hover:bg-slate-50 transition-all">
-          <FcGoogle className="text-2xl" />
-          <span className="text-gray-500 hover:text-gray-600  text-lg">Login with Google</span>
-        </button> */}
+ 
         <GoogleLogin     clientId="902793822276-faketo9e86fhf873hvrf3fp7k365dfm2.apps.googleusercontent.com"
     buttonText="Login with Google"
     onSuccess={onSuccess}
