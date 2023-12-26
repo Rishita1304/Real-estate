@@ -1,6 +1,7 @@
 import React from "react";
 import { housesData } from "../data";
 import { useParams } from "react-router-dom";
+import agent2 from '../assets/img/agents/agent2.png'
 import { BiBed, BiBath, BiArea } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
@@ -26,7 +27,7 @@ const PropertyDetails = () => {
               {house.country}
             </div>
           </div>
-          <div className="text-purple-700 font-semibold mb-4 lg:mb-0">$ {house.price}</div>
+          <div className="text-purple-700 font-semibold mb-4 lg:mb-0">₹ {house.price}</div>
         </div>
         <div className="flex flex-col items-start gap-8 lg:flex-row">
           <div className="max-w-[768px]">
@@ -52,9 +53,9 @@ const PropertyDetails = () => {
           <div className="flex-1 bg-gray-50 w-full mb-8 border border-gray-200 rounded-lg px-6 py-8">
             <div className="flex items-center gap-x-4 mb-8">
               <div className="w-20 h-20 p-1 border border-gray-300 rounded-full">
-                <img src={house.agent.image} alt="" />
+                <img src={agent2} alt="" />
               </div>
-              <div className="font-bold text-lg">{house.agent.name}</div>
+              <div className="font-bold text-lg">Garry</div>
               <Link to="" className="text-purple-700 text-sm">
                 View Listing
               </Link>
